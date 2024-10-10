@@ -13,7 +13,6 @@ def print_date():
     current_date = datetime.datetime.now().strftime("%Y%m%d")
     # 将日期粘贴到剪贴板
     keyboard.write(current_date, delay=0.05)
-    sys.stdout.flush()
     # keyboard.send(current_date)
 
 # 注册快捷键
